@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.reallyenglish.plugin.browser-recorder" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>BrowserRecorder</name>
+  <!-- Plugin source code: Core -->
+  <js-module src="www/media-recorder.js" name="MediaRecorder">
+    <clobbers target="window.Recorder" />
+  </js-module>
+  <asset src="www/recorder.swf" target="scripts/recorder.swf" />
+</plugin>
